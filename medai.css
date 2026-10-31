@@ -1,0 +1,111 @@
+@media (max-width:768px) {
+    .links
+     {
+        display: none;
+    }
+    .medai-icon{
+        visibility:visible ;
+        
+    }
+    .buteen i {
+       width: 50px;  
+       padding: 3%; 
+        color:black;
+        border:2px solid black;
+        font-size: x-large;
+        box-shadow:5px 5px black;
+        border-radius:5px;
+    }
+    .buteen i:hover {
+        transition: ease-in-out 100ms;
+        transform: translate(0px, -2px);
+
+
+    }
+    .buteen button{
+        visibility: hidden;
+    } 
+    .hero{
+        margin-top: 7%;
+    }
+    .container2 {
+        display: flex;
+        flex-direction: column;
+        gap: 50px;
+    } 
+    nav{
+        width: 92%;
+    }
+    .nav::after{
+     width: 90px;
+    }
+    .contriner-section-2{
+        display: flex;
+        flex-direction: column;
+    }
+    .header-section h3{
+      
+        font-size:40px;
+    }
+    article {
+        height: max-content;
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+    .arcicl-spans {
+        
+        display: flex;
+        gap: 200px;
+    }
+    .right-span {
+        display: flex;
+        flex-direction: column;
+        justify-self: start;
+    }
+    .left-span{
+        display: flex;
+        flex-direction: column;
+        
+    }
+    .bt-11 {
+      width: 50%;
+      margin-block:70px;
+      position: relative;
+      left: 150px;
+
+    }
+    
+    
+    
+  
+       .ux-categories-box {
+        display: block;
+        width: 100%;
+
+        
+       }
+  
+    .join-content {
+        display: flex;
+        flex-direction: column;
+       
+    }
+    .join-right ,.join-left {
+        width: 100%;
+    }
+   .footer-1,.footer-bottom,.footer-top{
+    display: flex;
+    flex-direction: column;
+
+
+}
+.footer-left h3 {
+    width: 100%;
+   font-size: large;
+}
+.footer-right button, .footer-right input{
+  
+    width: 280%;
+}
+}
